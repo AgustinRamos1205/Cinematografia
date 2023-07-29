@@ -1,0 +1,104 @@
+
+/* Estilos generales para la página */
+/* Estilos generales para la página */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0; /* Ajustar el margen del cuerpo a 0 para evitar espacios adicionales */
+}
+
+/* Estilos para el encabezado */
+header {
+  background-color: rgb(65, 123, 141);
+  padding: 30px;
+  margin: 10px;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: cursive;
+}
+
+/* Estilos para el contenido principal */
+main {
+  background-color: rgb(235, 235, 235);
+  width: 90%;
+  max-width: 1200px; /* Ajustar el ancho máximo para el contenido principal */
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Estilos para el pie de página */
+footer {
+  background-color: rgb(49, 46, 46);
+  padding: 50px;
+  margin: 15px;
+  width: 90%;
+  max-width: 1200px; /* Ajustar el ancho máximo para el pie de página */
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Estilos para los títulos */
+h2 {
+  color: #000000;
+  font-size: 28px;
+}
+
+h3 {
+  color: #000000;
+  font-size: 25px;
+}
+
+h4 {
+  color: #faeeee;
+}
+
+/* Estilos para el texto */
+p {
+  color: #1f1c1c;
+  font-size: 20px;
+}
+
+/* Estilos para el contenedor de PDF */
+.PDF {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Estilos para el botón de descarga */
+.boton-descargar {
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: #999999;
+  color: #ffffff;
+  font-family: 'Arial', sans-serif;
+  border-radius: 10px;
+}
+iframe{
+  width: 90%;
+}
+/* Media Query para ajustar el contenido en pantallas pequeñas */
+@media only screen and (max-width: 768px) {
+  main, footer {
+    width: 90%;
+    max-width: 100%; /* Ajustar el ancho máximo para pantallas pequeñas */
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+}
